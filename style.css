@@ -41,7 +41,7 @@ body {
     transition: .5s;
 }
 
-.header .sticky {
+.header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
@@ -62,11 +62,11 @@ body {
     margin-right: 3.5rem;
 }
 
-.header .sticky .navbar a {
+.header.sticky .navbar a {
     color: var(--text-color);
 }
 
-.header .sticky .navbar a.active {
+.header.sticky .navbar a.active {
     color: var(--main-color);
 }
 
@@ -80,7 +80,7 @@ body {
     background: white;
 }
 
-.header .sticky .navbar a::before {
+.header.sticky .navbar a::before {
     background: var(--main-color);
     opacity: .7;
 }
@@ -91,7 +91,7 @@ body {
     cursor: pointer;
 }
 
-.header .sticky #darkMode-icon {
+.header.sticky #darkMode-icon {
     color: var(--text-color);
     opacity: .9;
 }
@@ -249,7 +249,7 @@ section {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 23%;
+    width: 40%;
     pointer-events: none;
 }
 
@@ -286,3 +286,46 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.services {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    text-align: center;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3 rem;
+}
+
