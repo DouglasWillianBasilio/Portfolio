@@ -121,6 +121,7 @@ section {
     line-height: .3;
 }
 
+
 .home-content h1 {
     font-size: 5.4rem;
     font-weight: 700;  
@@ -209,7 +210,7 @@ section {
 }
 
 .home .profession-box .profession:nth-child(1) i{
-    margin-right: 125px;
+    margin-right: -38px;
 }
 
 .home .profession-box .profession:nth-child(2),
@@ -226,10 +227,12 @@ section {
     font-size: 3.8rem;
 }
 
+
 .home .profession h3 {
     font-size: 3.2rem;
     line-height: 1;
     font-weight: 600;
+    margin-left: 22px;
 }
 
 .home .profession-box .circle {
